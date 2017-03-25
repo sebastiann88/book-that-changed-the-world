@@ -67,6 +67,7 @@ div.media {
 
 div.media-img {
     align-items: center;
+    padding: 0;
 }
 
 div.media-body {
@@ -101,7 +102,7 @@ div.jumbotron {
     background-repeat: no-repeat;
     text-align: left;
     margin-bottom: 0;
-    padding: 3em 0 11em 0;
+    padding: 8em 0 17em 0;
 }
 
 div.jumbotron > div {
@@ -115,15 +116,15 @@ section.how-it-started {
     align-items: center;
     height: 100%;
     max-height: 1200px;
-    padding: 9em 0;
-    background: linear-gradient(rgba(117,118,129,0.15), rgba(117,118,129,0.00) 90%),
-        #e0baa0 url(../images/windmill.jpg) no-repeat center;
+    padding: 12em 0;
+    background: linear-gradient(rgba(210,210,206,0.15), rgba(210,210,206,0.00) 90%),
+        #d2d2ce url(../images/mysterious.jpg) no-repeat top;
     background-size: cover;
 }
 
 section.how-life-changed {
     height: 100%;
-    padding: 9em 0;
+    padding: 12em 0;
     background: linear-gradient(rgba(218,178,116,0.10), rgba(218,178,116,0.00) 90%),
         #433f3a url(../images/cottage.jpg) no-repeat bottom;
     background-size: cover;
@@ -131,8 +132,8 @@ section.how-life-changed {
 
 section.sharing-with-you {
     height: 100%;
-    padding: 9em 0 0 0;
-    background: linear-gradient(0deg, rgba(34,41,52,1.00), rgba(34,41,52,0.00) 90%),
+    padding: 12em 0 0 0;
+    background: linear-gradient(0deg, rgba(34,41,52,1.00) 10%, rgba(34,41,52,0.00)),
         #433f3a url(../images/fireworks.jpg) no-repeat center;
     background-size: cover;
 }
@@ -160,17 +161,30 @@ button.main-btn {
     display: block;
     color: #fff;
     background-color: transparent;
-    border: 1px solid #fff;
     margin: 3em auto 5em auto;
+    padding: 0;
 }
 
 button.main-btn a {
-    color: #fff;   
+    display: block;
+    color: #fff;
+    background-color: transparent;
+    padding: 0.75em;
+    border: 1px solid #fff;
+    transition: all 0.2s;
+}
+
+button.main-btn a:hover {
+    cursor: pointer;
+    color: #1e242d;
+    background-color: #fff;
+    text-decoration: none;
+    transition: all 0.2s;
 }
 
 div.text-bg-navy {
     padding: 1.5em;
-    background: linear-gradient(180deg, rgba(33,42,62,0.75) 50%, rgba(33,42,62,0.50));
+    background: linear-gradient(180deg, rgba(210,210,206,0.85) 60%, rgba(210,210,206,0.55));
 }
 
 div.text-bg-brown {
@@ -183,14 +197,18 @@ div.text-bg-night {
     background: linear-gradient(180deg, rgba(34,41,52,0.70) 60%, rgba(34,41,52,0.00));   
 }
 
-div.text-bg-navy h2,
 div.text-bg-brown h2,
 div.text-bg-night h2,
-div.text-bg-navy p,
 div.text-bg-brown p,
-div.text-bg-night p{
+div.text-bg-night p {
     color: #fff;   
 }
+
+div.text-bg-navy h2,
+div.text-bg-navy p {
+    color: #34302e;
+}
+
 
 div.text-bg-navy p,
 div.text-bg-brown p, 
