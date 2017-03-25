@@ -122,7 +122,6 @@ section.how-it-started {
 
 section.how-life-changed {
     height: 100%;
-    max-height: 1200px;
     padding: 9em 0;
     background: linear-gradient(rgba(218,178,116,0.10), rgba(218,178,116,0.00) 90%),
         #433f3a url(../images/cottage.jpg) no-repeat bottom;
@@ -131,7 +130,6 @@ section.how-life-changed {
 
 section.sharing-with-you {
     height: 100%;
-    max-height: 1200px;
     padding: 9em 0 0 0;
     background: linear-gradient(0deg, rgba(34,41,52,1.00), rgba(34,41,52,0.00) 90%),
         #433f3a url(../images/fireworks.jpg) no-repeat center;
