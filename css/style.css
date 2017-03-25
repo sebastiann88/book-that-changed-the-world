@@ -18,10 +18,29 @@ hr {
     border-color: #fff;   
 }
 
+/* MAIN */
+
+body {
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;   
+}
+
+div.drop-shadow,
+div.drop-shadow h3 {
+    text-shadow: 2px 2px #3e4e60;
+    font-weight: 700;
+}
+
 
 
 
 /* NAVIGATION */
+
+header {
+    background-color: #3e4e60;
+}
 
 div.navbar-collapse {
     justify-content: flex-end;   
@@ -37,7 +56,35 @@ nav.navigation a.navbar-brand {
     color: #fff;   
 }
 
+/* MEDIA OBJECTS */
+
+div.media {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 3em 0;
+}
+
+div.media-img {
+    align-items: center;
+}
+
+div.media-body {
+    align-items: center;
+}
+
+/* BOOTSTRAP */
+
+.container {
+    width: 100%;
+    max-width: 100em;   
+}
+
 /* JUMBOTRON */
+
+h1.book-title {
+    text-shadow: 1px 1px #3e4e60;   
+}
 
 h1.book-title + span {
     display: block;
@@ -56,52 +103,83 @@ div.jumbotron {
     margin-bottom: 0;
 }
 
-div.jumbotron div {
+div.jumbotron > div {
     color: #fff;
     margin-top: 3em;
+    padding-top: 1.5em;
 }
 
 section.how-it-started {
-    height: 700px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    max-height: 1200px;
+    padding: 9em 0;
     background: linear-gradient(rgba(117,118,129,0.15), rgba(117,118,129,0.00) 90%),
         #e0baa0 url(../images/windmill.jpg) no-repeat center;
     background-size: cover;
 }
 
 section.how-life-changed {
-    height: 700px;
-    background: linear-gradient(rgba(218,178,116,0.15), rgba(218,178,116,0.00) 90%),
+    height: 100%;
+    max-height: 1200px;
+    padding: 9em 0;
+    background: linear-gradient(rgba(218,178,116,0.10), rgba(218,178,116,0.00) 90%),
         #433f3a url(../images/cottage.jpg) no-repeat bottom;
     background-size: cover;
 }
 
 section.sharing-with-you {
-    height: 700px;
+    height: 100%;
+    max-height: 1200px;
+    padding: 9em 0 0 0;
     background: linear-gradient(0deg, rgba(34,41,52,1.00), rgba(34,41,52,0.00) 90%),
         #433f3a url(../images/fireworks.jpg) no-repeat center;
     background-size: cover;
 }
 
 section.sharing-with-you-cont {
-    height: 700px;
+    height: 100%;
     background-color: rgba(34,41,52,1.0);
     background-size: cover;
 }
 
+div.sharing {
+    margin-bottom: 3em;   
+}
+
+section.sharing-with-you-cont img {
+   margin-bottom: 2em;    
+}
+
+section.bg-night {
+   background-color: rgba(34,41,52,1.0);
+    
+}
+
+button.main-btn {
+    display: block;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    margin: 3em auto 5em auto;
+}
+
+button.main-btn a {
+    color: #fff;   
+}
+
 div.text-bg-navy {
-    margin-top: 5em;
     padding: 1.5em;
-    background: linear-gradient(90deg, rgba(117,118,129,0.70) 60%, rgba(117,118,129,0.00));
+    background: linear-gradient(180deg, rgba(33,42,62,0.75) 50%, rgba(33,42,62,0.50));
 }
 
 div.text-bg-brown {
-    margin-top: 5em;
     padding: 1.5em;
-    background: linear-gradient(90deg, rgba(67,63,58,0.70) 60%, rgba(67,63,58,0.00));   
+    background: linear-gradient(180deg, rgba(67,63,58,0.85) 60%, rgba(67,63,58,0.55));   
 }
 
 div.text-bg-night {
-    margin-top: 5em;
     padding: 1.5em;
     background: linear-gradient(180deg, rgba(34,41,52,0.70) 60%, rgba(34,41,52,0.00));   
 }
@@ -115,21 +193,23 @@ div.text-bg-night p{
     color: #fff;   
 }
 
-div.text-bg-navy h2,
-div.text-bg-brown h2, 
-div.text-bg-night h2 {
-    margin: 0.75em 0 0.75em 0;   
-}
-
 div.text-bg-navy p,
 div.text-bg-brown p, 
 div.text-bg-night p {
-    font-weight: 300;   
+   
 }
 
-p.two-p-columns {
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
-    column-gap: 30px;
+/* MEDIA QUERIES */
+
+@media (min-width: 992px) {
+    p.two-text-columns {
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+        column-count: 2;
+        column-gap: 15px;
+    }
+    
+    div.media-img {
+        padding: 0 15px;
+    }
 }
