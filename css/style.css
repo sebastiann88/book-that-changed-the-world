@@ -1,0 +1,135 @@
+/* TYPOGRAPHY */
+
+h1, h2 {
+    font-family: 'Bree Serif', serif;
+}
+
+h3, h4, h5, h6, p {
+    font-family: 'Tinos', serif;
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+hr {
+    border-color: #fff;   
+}
+
+
+
+
+/* NAVIGATION */
+
+div.navbar-collapse {
+    justify-content: flex-end;   
+}
+
+nav.navigation {
+    background-color: #3e4e60;
+    font-family: 'Bree Serif', serif;
+}
+
+nav.navigation div ul li a,
+nav.navigation a.navbar-brand {
+    color: #fff;   
+}
+
+/* JUMBOTRON */
+
+h1.book-title + span {
+    display: block;
+    width: 8em;   
+    border-bottom: 10px solid #fff;
+    margin-top: 1.5em;
+}
+
+div.jumbotron {
+    height: 750px;
+    background-size: cover;
+    background-image:url(../images/mountains.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+div.jumbotron div {
+    color: #fff;
+    margin-top: 3em;
+}
+
+section.how-it-started {
+    height: 700px;
+    background: linear-gradient(rgba(117,118,129,0.15), rgba(117,118,129,0.00) 90%),
+        #e0baa0 url(../images/windmill.jpg) no-repeat center;
+    background-size: cover;
+}
+
+section.how-life-changed {
+    height: 700px;
+    background: linear-gradient(rgba(218,178,116,0.15), rgba(218,178,116,0.00) 90%),
+        #433f3a url(../images/cottage.jpg) no-repeat bottom;
+    background-size: cover;
+}
+
+section.sharing-with-you {
+    height: 700px;
+    background: linear-gradient(0deg, rgba(34,41,52,1.00), rgba(34,41,52,0.00) 90%),
+        #433f3a url(../images/fireworks.jpg) no-repeat center;
+    background-size: cover;
+}
+
+section.sharing-with-you-cont {
+    height: 700px;
+    background-color: rgba(34,41,52,1.0);
+    background-size: cover;
+}
+
+div.text-bg-navy {
+    margin-top: 5em;
+    padding: 1.5em;
+    background: linear-gradient(90deg, rgba(117,118,129,0.70) 60%, rgba(117,118,129,0.00));
+}
+
+div.text-bg-brown {
+    margin-top: 5em;
+    padding: 1.5em;
+    background: linear-gradient(90deg, rgba(67,63,58,0.70) 60%, rgba(67,63,58,0.00));   
+}
+
+div.text-bg-night {
+    margin-top: 5em;
+    padding: 1.5em;
+    background: linear-gradient(180deg, rgba(34,41,52,0.70) 60%, rgba(34,41,52,0.00));   
+}
+
+div.text-bg-navy h2,
+div.text-bg-brown h2,
+div.text-bg-night h2,
+div.text-bg-navy p,
+div.text-bg-brown p,
+div.text-bg-night p{
+    color: #fff;   
+}
+
+div.text-bg-navy h2,
+div.text-bg-brown h2, 
+div.text-bg-night h2 {
+    margin: 0.75em 0 0.75em 0;   
+}
+
+div.text-bg-navy p,
+div.text-bg-brown p, 
+div.text-bg-night p {
+    font-weight: 300;   
+}
+
+p.two-p-columns {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    column-gap: 30px;
+}
