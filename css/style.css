@@ -157,16 +157,20 @@ section.bg-night {
     
 }
 
-button.main-btn {
+span.main-btn {
     display: block;
+    width: 100%;
+    max-width: 28em;
     color: #fff;
     background-color: transparent;
     margin: 3em auto 5em auto;
     padding: 0;
 }
 
-button.main-btn a {
+span.main-btn a {
     display: block;
+    width: 100%;
+    max-width: 28em;
     color: #fff;
     background-color: transparent;
     padding: 0.75em;
@@ -174,12 +178,16 @@ button.main-btn a {
     transition: all 0.2s;
 }
 
-button.main-btn a:hover {
+span.main-btn a:hover {
     cursor: pointer;
     color: #1e242d;
     background-color: #fff;
     text-decoration: none;
     transition: all 0.2s;
+}
+
+span.main-btn a h2 {
+    font-size: 1.25em;
 }
 
 div.text-bg-navy {
@@ -217,6 +225,16 @@ div.text-bg-night p {
 }
 
 /* MEDIA QUERIES */
+
+@media (min-width: 576px) {
+    span.main-btn a h2 {
+        font-size: 2em;
+    }     
+}
+
+@media (min-width: 768px) {
+
+}
 
 @media (min-width: 992px) {
     p.two-text-columns {
