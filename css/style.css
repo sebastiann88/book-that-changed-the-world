@@ -224,6 +224,10 @@ div.text-bg-night p {
    
 }
 
+br.margin-bottom {
+    margin-bottom: 1em;   
+}
+
 /* MEDIA QUERIES */
 
 @media (min-width: 576px) {
