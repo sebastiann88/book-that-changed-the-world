@@ -4,7 +4,7 @@ $(document).ready(function () {
     $('a.navbar-brand, a.nav-link').click(function () {
         var $secId = $(this);
         $('html, body').stop().animate({
-            scrollTop: ($($secId.attr('href')).offset().top - 56)}, 1000);
+            scrollTop: ($($secId.attr('href')).offset().top - 55)}, 1000);
     });
     
     $('body').scrollspy({
