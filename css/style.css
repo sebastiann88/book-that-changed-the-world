@@ -43,7 +43,8 @@ i.toggle-hamburger {
     font-size: 28px;
 }
 
-i.toggle-hamburger:hover {
+button.navbar-toggler:hover,
+button.navbar-toggler:hover i.toggle-hamburger {
     cursor: pointer;
     color: beige;   
 }
