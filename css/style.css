@@ -247,6 +247,36 @@ br.margin-bottom {
     margin-bottom: 1em;   
 }
 
+/* FOOTER */
+
+footer {
+    background-color: rgba(34,41,52,1.0);
+    padding-bottom: 1.75em;
+}
+
+footer p,
+footer small,
+footer a {
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0.25em;
+}
+
+footer p,
+footer small {
+    display: block;
+}
+
+footer a {
+    display: inline;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
 /* MEDIA QUERIES */
 
 @media (min-width: 576px) {
