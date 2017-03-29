@@ -144,16 +144,24 @@ section.how-it-started {
 section.how-life-changed {
     height: 100%;
     padding: 12em 0;
-    background: linear-gradient(rgba(218,178,116,0.10), rgba(218,178,116,0.00) 90%),
+    background: linear-gradient(rgba(218,178,116,0.00), rgba(218,178,116,0.00) 90%),
         #433f3a url(../images/cottage.jpg) no-repeat bottom;
+    background-size: cover;
+}
+
+section.the-book {
+    height: 100%;
+    padding: 9em 0;
+    background: linear-gradient(0deg, rgba(34,41,52,0.10) 20%, rgba(34,41,52,0.00)),
+        #433f3a url(../images/night-lights.jpg) no-repeat center;
     background-size: cover;
 }
 
 section.sharing-with-you {
     height: 100%;
-    padding: 12em 0 0 0;
-    background: linear-gradient(0deg, rgba(34,41,52,1.00) 10%, rgba(34,41,52,0.00)),
-        #433f3a url(../images/fireworks.jpg) no-repeat center;
+    padding: 9em 0;
+    background: linear-gradient(180deg, rgba(34,41,52,0.00) 80%, rgba(34,41,52,1.00)),
+        #433f3a url(../images/night-sky.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -182,7 +190,7 @@ span.main-btn {
     max-width: 28em;
     color: #fff;
     background-color: transparent;
-    margin: 3em auto 5em auto;
+    margin: 4.5em auto 4.5em auto;
     padding: 0;
 }
 
