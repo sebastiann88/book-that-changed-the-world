@@ -152,8 +152,8 @@ section.how-life-changed {
 section.the-book {
     height: 100%;
     padding: 9em 0;
-    background: linear-gradient(0deg, rgba(34,41,52,0.10) 20%, rgba(34,41,52,0.00)),
-        #433f3a url(../images/night-lights.jpg) no-repeat center;
+    background: linear-gradient(0deg, rgba(34,41,52,0.20) 10%, rgba(34,41,52,0.00) 90%),
+        #433f3a url(../images/river.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -161,7 +161,7 @@ section.sharing-with-you {
     height: 100%;
     padding: 9em 0;
     background: linear-gradient(180deg, rgba(34,41,52,0.00) 80%, rgba(34,41,52,1.00)),
-        #433f3a url(../images/night-sky.jpg) no-repeat center;
+        #433f3a url(../images/sunset-dark.jpg) no-repeat top;
     background-size: cover;
 }
 
@@ -227,6 +227,11 @@ div.text-bg-brown {
     background: linear-gradient(180deg, rgba(67,63,58,0.85) 60%, rgba(67,63,58,0.55));   
 }
 
+div.text-bg-river {
+    padding: 1.5em;
+    background: linear-gradient(180deg, rgba(30,37,36,0.70) 60%, rgba(30,37,36,0.00));   
+}
+
 div.text-bg-night {
     padding: 1.5em;
     background: linear-gradient(180deg, rgba(34,41,52,0.70) 60%, rgba(34,41,52,0.00));   
@@ -234,8 +239,10 @@ div.text-bg-night {
 
 div.text-bg-brown h2,
 div.text-bg-night h2,
+div.text-bg-river h2,
 div.text-bg-brown p,
-div.text-bg-night p {
+div.text-bg-night p,
+div.text-bg-river p{
     color: #fff;   
 }
 
